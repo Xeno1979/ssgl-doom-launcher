@@ -1,69 +1,69 @@
 export default {
   atoms: {
-    reset: 'Reset',
-    selectFile: 'File',
-    selectDir: 'Directory'
+    reset: 'Opnieuw Instellen',
+    selectFile: 'Bestand',
+    selectDir: 'Bestandslijst'
   },
   filters: {
-    lastplayed: 'Last played',
-    oldest: 'Oldest first',
-    newest: 'Newest first',
-    active: 'Active first'
+    lastplayed: 'Laatst gespeeld',
+    oldest: 'Oudste eerst',
+    newest: 'Nieuwste eerst',
+    active: 'Actieve eerst'
   },
   wads: {
     filter: 'Filter {{size}} Mods',
     toastIndex: 'Reindexed Mod Directory',
-    packEdit: 'Edit',
-    packSaveAs: 'Save as',
-    packSave: 'Save',
-    packReset: 'Reset'
+    packEdit: 'Wijzig',
+    packSaveAs: 'Opslaan als',
+    packSave: 'Opslaan',
+    packReset: 'Opnieuw Instellen'
   },
   sourceports: {
     parameter: 'Parameter',
-    filename: 'File Name',
-    delete: 'Delete Sourceport',
-    save: 'Save Sourceport',
-    binary: 'Sourceport Path',
-    name: 'Sourceport Name',
-    savegameparam: 'Seperate Savegames by Package',
-    configDefault: 'Default Config File',
-    configparam: 'Seperate Config by Package',
-    toastSaved: 'Successfully saved Sourceport',
-    toastDeleted: 'Deleted Sourceport'
+    filename: 'Bestandsnaam',
+    delete: 'Verwijder Bronpoort',
+    save: 'Bronpoort opslaan',
+    binary: 'Locatie Bronpoort',
+    name: 'Naam Bronpoort',
+    savegameparam: 'Afzonderlijke Games Opslaan Per Pakket',
+    configDefault: 'Standaard Configuratiebestand',
+    configparam: 'Afzonderlijke Configuratie Per Pakket',
+    toastSaved: 'Bronpoort Succesvol Opgeslagen',
+    toastDeleted: 'Bronpoort Verwijderd'
   },
   settings: {
-    savepath: 'SSGL Data Directory',
-    waddir: 'WAD Directory',
-    wallpaper: 'Wallpaper Image',
-    save: 'Save Settings',
-    toastSaved: 'Successfully saved Settings'
+    savepath: 'SSGL Bestandsgegevens',
+    waddir: 'WAD Bestandslijst',
+    wallpaper: 'Achtergrond Afbeelding',
+    save: 'Instellingen Opslaan',
+    toastSaved: 'Instellingen Succesvol Opgeslagen'
   },
   common: {
-    loading: 'Loading',
-    language: 'Language',
-    success: 'Success',
-    error: 'Error',
-    cancel: 'Cancel',
+    loading: 'Laden',
+    language: 'Taal',
+    success: 'Succes',
+    error: 'Fout',
+    cancel: 'Annuleren',
     ok: 'Ok',
-    required: 'Required',
-    toastRequired: 'Please Fill out the required Fields'
+    required: 'Verplicht',
+    toastRequired: 'Vul Alstublieft De Verplichte Velden In'
   },
   nav: {
     appname: 'Super Shotgun Launcher',
     wads: 'Wads',
-    packages: 'Packages',
-    sourceports: 'Sourceports',
-    settings: 'Settings'
+    packages: 'Pakketten',
+    sourceports: 'Bronpoorten',
+    settings: 'Instellingen'
   },
   packages: {
-    lastplayed: 'Last played: {{value, date}}',
-    never: 'Last played: Never',
-    filter: 'Filter {{size}} Packages',
-    titleSave: 'Save as: {{name}}',
-    titleEdit: 'Edit: {{name}}',
-    toastSave: 'Saved Package',
-    use: 'Use',
-    play: 'Play now',
-    delete: 'Delete'
+    lastplayed: 'Laatst Gespeeld: {{value, date}}',
+    never: 'Laatst Gespeeld: Nooit',
+    filter: 'Filter {{size}} Pakketten',
+    titleSave: 'Opslaan Als: {{name}}',
+    titleEdit: 'Wijzig: {{name}}',
+    toastSave: 'Opgeslagen Pakket',
+    use: 'Gebruik',
+    play: 'Nu Spelen',
+    delete: 'Verwijder'
   }
 };
